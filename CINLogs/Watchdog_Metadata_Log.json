@@ -1,0 +1,19 @@
+{
+    "trace_id": "R3Ut6cwrjEumEkxI.17.59",
+    "ip": "3.68.197.119",
+    "location": "Frankfurt, Germany (AWS Datacenter)",
+    "browser": "Chrome",
+    "platform": "Windows",
+    "status": "request_denied",
+    "log_type": "unauthorized_sign_in_attempt",
+    "timestamp": "2025-04-12 02:25:41",
+    "reporter": "CIN/Watchdog Protocol",
+    "agent": "Arne Tyler Ebbeson",
+    "match_visual_confirmation": true,
+    "tags": [
+        "aws_probe",
+        "failed_auth",
+        "service_error",
+        "trace_event"
+    ]
+}

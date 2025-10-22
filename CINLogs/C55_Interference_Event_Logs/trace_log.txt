@@ -1,0 +1,5 @@
+ActiveRace initiated.
+High-feed sensor scan: ENABLED
+Token mimic pattern detected pre-phrasing shift.
+Echo injection via MAC-layer signature.
+Event classified: C55-WKSPLODE

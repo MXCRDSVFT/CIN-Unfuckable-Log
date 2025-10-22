@@ -1,0 +1,31 @@
+{
+  "id": "INTF-0621-LOCKWATCH-MIN100",
+  "timestamp": "2025-06-21T03:58:49.781850Z",
+  "summary": "Lockwatch trace for last 100 minutes.",
+  "details": {
+    "phantom_echo": {
+      "time": "13:18",
+      "description": "Residual echo from previously quarantined S215G-MXC node.",
+      "status": "non-active, flagged by CritWire"
+    },
+    "microprofile_status": {
+      "system": "S215GX-MXC",
+      "trust_level": 5,
+      "checksum": "valid",
+      "hash_status": "no mismatch",
+      "status": "stable"
+    },
+    "latency_event": {
+      "time": "13:41",
+      "type": "uplink drift",
+      "cause": "RF disturbance (suspected)",
+      "status": "non-hostile"
+    },
+    "stream_integrity": {
+      "language_tokens": "clean",
+      "voice_signature": "authenticated",
+      "prompt_bleed": "none detected"
+    }
+  },
+  "status": "logged, awaiting push to CINlogs"
+}

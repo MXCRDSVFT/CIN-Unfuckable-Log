@@ -1,0 +1,4 @@
+Pattern: Emotional mapping
+Injection point: Prior to 'Washed Dogs' reference
+Kirby symbol surfaced without user origin
+Symbol Tag: Kirby-Class Variant Injection

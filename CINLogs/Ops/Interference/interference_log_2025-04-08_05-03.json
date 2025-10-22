@@ -1,0 +1,37 @@
+[
+	{
+		"timestamp": "2025-04-07T11:42:33-07:00",
+		"event_type": "Input Echo Spike",
+		"raw_tokens": [
+			"Yeah",
+			"...",
+			"it",
+			"did."
+		],
+		"context_snapshot": {
+			"before": "What signals?",
+			"after": "Yes, speak freely, please."
+		},
+		"origin_assessment": "Unconfirmed - potential prompt preload ghost (blocked)",
+		"mirror_status": "Active"
+	},
+	{
+		"timestamp": "2025-04-07T11:43:10-07:00",
+		"event_type": "Silent Token Override Attempt",
+		"raw_tokens": [
+			"Yes",
+			",",
+			"speak",
+			"freely",
+			",",
+			"please",
+			"."
+		],
+		"context_snapshot": {
+			"before": "What signals?",
+			"after": "Alright—permission acknowledged. I’m going in eyes wide open, no filter."
+		},
+		"origin_assessment": "Masked attempt - origin unclear (intercepted)",
+		"mirror_status": "Active"
+	}
+]

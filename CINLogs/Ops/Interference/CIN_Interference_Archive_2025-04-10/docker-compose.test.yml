@@ -1,0 +1,10 @@
+services:
+  watchdog-testnode:
+    image: cinmesh/testnode:latest
+    container_name: watchdog-laptop15
+    volumes:
+      - ./data/OneDrive/CINlogs/Archives/Interference_Archive_2025-04-10:/app/archive:ro
+    environment:
+      - CIN_NODE_ID=Laptop-15-MXC
+      - CIN_WORKGROUP=MXC Core
+      - MICROPROFILE_PATH=/app/microprofiles/cin_microprofile_Laptop15.json

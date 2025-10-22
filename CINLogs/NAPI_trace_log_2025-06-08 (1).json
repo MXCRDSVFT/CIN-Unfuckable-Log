@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-06-08T06:03:31.214977Z",
+    "event": "Trace log manually initiated by user.",
+    "details": {
+      "reason": "NAPI file download failure (expired link)",
+      "context": "Android universal APK distribution request",
+      "system": "S21-5G or any Android",
+      "status": "New trace session started"
+    }
+  }
+]

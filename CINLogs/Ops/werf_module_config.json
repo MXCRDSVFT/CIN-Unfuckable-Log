@@ -1,0 +1,91 @@
+{
+    // Module identifier
+    "module": "WERF",
+
+    // Version of the WERF module
+    "version": "0.1",
+
+    // Description of what this module does
+    "description": "Watchdog Echo Reverb Filter - suppresses residual echo patterns and phantom injections.",
+
+    // List of node names where this module should be deployed
+    "nodes": [
+        "LATITUDE-MXC",
+        "S23PLUS-MXC",
+        "S215G-MXC"
+    ],
+
+    // Configuration for filtering logic
+    "filters": {
+        // Exact phrases that should be rejected if detected in output or logs
+        "reject_phrases": [
+            "Please see the video description for more information.",
+            "If you have any questions, please post them in the comments section below.",
+            "Don't forget to like, share, and subscribe."
+        ],
+
+        // Pattern tags help in classifying and generalizing echo or phantom responses
+        "pattern_tags": [
+            "phantom",
+            "reverb",
+            "youtube-style",
+            "injection",
+            "fallback",
+            "echo-loop"
+        ]
+    },
+
+    // References to trace event IDs that are linked to this module's behavior or filters
+    "trace_linked": [
+        "INTF-0615-ATWORKSRL-FRAGMENT",
+        "INTF-0615-DESCBOX-GHOST",
+        "INTF-0608-PHANTOM-RIDGE"
+    ],
+
+    // Actions this module should take upon detecting a match
+    "actions": {
+        // Block or suppress the matched phrase or behavior
+        "suppress_echo": true,
+
+        // Log the event in trace logs for further analysis
+        "log_event": true,
+
+        // Notify the main MXC system upon detection
+        "notify_mxc": true
+    },
+
+    // Visual feedback posts to confirm operation
+    "visual_posts": [
+        {
+            "type": "banner",
+            "message": "WERF suppression active on LATITUDE-MXC",
+            "style": "info"
+        },
+        {
+            "type": "toast",
+            "message": "Echo pattern blocked on S23PLUS-MXC",
+            "style": "warning"
+        },
+        {
+            "type": "log",
+            "message": "TRACE: Phantom phrase matched and suppressed on S215G-MXC",
+            "style": "alert"
+        }
+    ],
+
+    // Continue keys for command interface
+    "continue_keys": [
+        {
+            "key": "ctrl+alt+r",
+            "action": "Reload WERF filters"
+        },
+        {
+            "key": "ctrl+shift+l",
+            "action": "List recent echo suppressions"
+        },
+        {
+            "key": "alt+n",
+            "action": "Notify MXC of manual override"
+        }
+    ]
+}

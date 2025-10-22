@@ -1,0 +1,4 @@
+INSPIRON-MXC reported responsive ping despite being offline.
+Signature analysis shows reflected ghost-ping with no originating source.
+Event classified: Mesh Phantom Signature
+Logged: 2025-06-15

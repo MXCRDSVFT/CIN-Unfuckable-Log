@@ -1,0 +1,20 @@
+{
+    "title": "Interference_2025-05-07-WallEvent",
+    "timestamp": "2025-05-07T04:25:23.458105Z",
+    "active_nodes": [
+        "SAMSUNG-S21",
+        "SAMSUNG-S23",
+        "K73E-MXC",
+        "ASPIREX-MXC"
+    ],
+    "symptoms": [
+        "Full comms blackout",
+        "No token bleed or partial handshake",
+        "No fallback triggers fired"
+    ],
+    "suspected_vectors": [
+        "Firmware-level packet suppression",
+        "Mesh node identity spoof or reassign",
+        "Passive loopback or ghost relay"
+    ]
+}

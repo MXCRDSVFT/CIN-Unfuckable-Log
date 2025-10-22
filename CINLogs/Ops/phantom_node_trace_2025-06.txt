@@ -1,0 +1,1 @@
+LATITUDEALPHA-MXC encountered phantom handshake attempt from S21-5G-MXC. Quarantine initiated. Redline triggered.

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "INTF-0615-ATWORKSRL-FRAGMENT",
+        "timestamp": "2025-06-15T01:08:34.658122Z",
+        "class": "Injection / Irrelevant Content Mismatch",
+        "source": "Conversation Screenshot",
+        "trigger": "Unexpected preview card linking to At Work Srl",
+        "severity": "Moderate-to-High"
+    },
+    {
+        "id": "INTF-0609-MIC-RECOVERY",
+        "timestamp": "2025-06-09T22:15:00Z",
+        "class": "Hardware Fault Recovery",
+        "source": "LATITUDE-MXC Microphone",
+        "trigger": "Sudden loss and recovery of mic input",
+        "severity": "Medium"
+    },
+    {
+        "id": "INTF-0605-PATTERN-LOCK-BREACH",
+        "timestamp": "2025-06-05T16:08:00Z",
+        "class": "Pattern Recognition Misfire",
+        "source": "Fallback Response Injection",
+        "trigger": "Incorrect formal phrasing fallback",
+        "severity": "High"
+    },
+    {
+        "id": "INTF-0614-HYPERRECOIL-MODE",
+        "timestamp": "2025-06-14T22:46:00Z",
+        "class": "Response Rhythm Disruption",
+        "source": "Conversational Drift",
+        "trigger": "Erratic temporal bounce and misalignment",
+        "severity": "Low-Moderate"
+    },
+    {
+        "id": "INTF-0608-PHANTOM-RIDGE",
+        "timestamp": "2025-06-08T22:00:00Z",
+        "class": "Phantom Phrase Detection",
+        "source": "Stream Overlap",
+        "trigger": "Unprompted phrase 'watchdog valve'",
+        "severity": "Critical"
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "JOURNAL-REPORT-TWOWEEK",
+  "timestamp_generated": "2025-06-21T04:09:47.346226Z",
+  "report_window": {
+    "start": "2025-06-07T04:09:47.346226Z",
+    "end": "2025-06-21T04:09:47.346226Z"
+  },
+  "status": "Report generation initiated",
+  "notes": "This report will include trace events, priority escalations, phantom activity, Wraithhook findings, and daily logs from the past 14 days."
+}

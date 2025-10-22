@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250927023604
+Username: DELLX-MXC\Microsoft
+RunAs User: DELLX-MXC\Microsoft
+Configuration Name: 
+Machine: DELLX-MXC (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  C:\Users\Ghost\OneDrive\Desktop\moto_frpbypass.ps1 
+Process ID: 17336
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Ghost\OneDrive\CINlogs\Ops\fastboot_moto_frp.log
+
+[CIN] Motorola FRP Bypass Plugin - Starting...
+C:\Users\Ghost\OneDrive\Desktop\moto_frpbypass.ps1 : fastboot.exe not found in PATH. Please install platform-tools.
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,moto_frpbypass.ps1
+C:\Users\Ghost\OneDrive\Desktop\moto_frpbypass.ps1 : fastboot.exe not found in PATH. Please install platform-tools.
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,moto_frpbypass.ps1
+
+**********************
+Windows PowerShell transcript end
+End time: 20250927023605
+**********************

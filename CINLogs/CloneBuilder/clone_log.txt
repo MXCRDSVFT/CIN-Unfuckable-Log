@@ -1,0 +1,5 @@
+05/24/2025 16:38:57 - Starting clone process
+06/03/2025 22:04:31 - Starting clone process
+06/04/2025 15:40:03 - Starting clone process
+06/04/2025 15:50:58 - Found target drive: D:
+

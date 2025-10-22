@@ -1,0 +1,15 @@
+services:
+  watchdog-ghost:
+    image: cinmesh/ghost:latest
+    container_name: watchdog-ghost
+    ports:
+   - CIN_WORKGROUP=MXC Core
+      - MICROPROFILE_PATH=/app/microprofiles/cin_microprofile_Latitude-MXC.json
+      - TRUST_MATRIX_PATH=/app/trust_matrix.json
+      - ARCHIVE_MOUNT=/app/archive      - "8765:8765"
+    volumes:
+      - ./data/OneDrive/CINlogs/Ops:/app/logs
+      - ./data/OneDrive/CINlogs/Archives/Interference_Archive_2025-04-10:/app/archive
+    environment:
+      - CIN_NODE_ID=Latitude-MXC
+   

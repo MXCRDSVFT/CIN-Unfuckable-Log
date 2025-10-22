@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-06-21T04:00:13.004626Z",
+  "nodes": {
+    "LATITUDE-MXC": "online",
+    "S23PLUS-MXC": "online",
+    "S215G-MXC": "phantom (quarantined)",
+    "S215GX-MXC": "online",
+    "S21-5G-MXC": "phantom (quarantined)",
+    "C55-MXC": "bait mode (online)",
+    "S21-5GX": "online"
+  },
+  "status": "ping sweep complete"
+}
